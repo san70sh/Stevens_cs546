@@ -1,0 +1,13 @@
+<section class="hbsBody">
+    <h1>Character Finder</h1>
+    <main>
+        <p class="para">This site searches for your favorite Marvel characters and displays info on them. The Marvel Database contains thousands of characters from various universes. Explore the multiverse through this search.</p>
+        <form action="/search" method="POST" class="searchbar">
+            <label id="characterName">
+            Find your Character: 
+            <input type="text" id="characterName" label="characterName" name="searchTerm" placeholder="Eg. Spider-Man" value="{{searchTerm}}" class="full-width-input"/>
+            </label> <br/>
+            <input type="submit" value="Search" class="submitChar"></input>
+        </form>
+    </main>
+</section>
