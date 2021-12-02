@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+    font-size: xxx-large;
+    padding: 5% 10%;
+}
+
+p {
+    margin: 0 auto;
+    border-radius: 25px;
+    border: 2px solid crimson;
+    width: fit-content;
+    padding: 20px;
+}
+
+.formBody {
+    padding-top: 50px;
+    text-align: center;
+}
+
+#login, #signup {
+    padding: 10px;
+    margin: 15px;
+    border: 10px;
+    width: 15%;
+}
+
+
+.hprlink {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.mainBody {
+    background-color: cornflowerblue;
+}
+
+.hbsBody {
+    background: white;
+    padding-bottom: 100px;
+    margin: 50px;
+}

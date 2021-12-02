@@ -1,0 +1,19 @@
+<section class="hbsBody">
+    {{#if auth}}
+        <br/>
+        <div id="formBody">
+            <p>{{message}}</p>
+            <h1>You have logged in.</h1>
+            <div class="hprlink">
+                <a href="/logout">Logout</a>
+            </div>
+        </div>
+    {{else}}
+        <div class="formBody">
+            <p>{{message}}</p>
+            <div class="hprlink">
+                <a href="/">Login</a>
+            </div>
+        </div>
+    {{/if}}
+</section>

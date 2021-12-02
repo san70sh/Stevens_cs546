@@ -1,0 +1,26 @@
+<section class="hbsBody">
+    <h1>Sign-up/Register</h1>>
+    {{#if err}}
+        <p>{{message}}</p>
+    {{/if}}
+    <br/>
+    <div>
+        <form action="/signup" method="post" id="signup-form" class="formBody" >
+            <div id="usrname">
+                <label for="username">Username: </label>
+                <input type="text" name="username" id="username"></input>
+            </div>
+                <br/>
+            <div id="pwd">
+                <label for="password">Password: </label>
+                <input type="password" name="password" id="password"></input>
+            </div>
+            <br/>    
+            <input type="submit" value="Sign Up" id="signup"></input>
+        </form>
+        <br/>
+        <div class="hprlink">
+            <a href="/">Already have an account? Click here to log-in</a>
+        </div>
+    </div>
+</section>
